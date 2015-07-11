@@ -38,25 +38,23 @@
 		</nav>
 	</header>
 	<div class="container">
-		<div class="jumbotron">
-		  <h2>Welcome to the Test</h2>
-		  <p>We're going to build a cool application using a MVC framework! This application was built with the Village88 folks!</p>
-		  <p><a class="btn btn-primary btn-lg" href="#" role="button">Start</a></p>
-		</div>
-		<div class="row">
-		  <div class="col-md-4">
-		  	<h3>Manage Users</h3>
-		  	<p>Using this application, you'll learn how to add, remove, and edit users for the application.</p>
+		<form class="form-inline">
+		  <div class="form-group">
+		    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+		    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
 		  </div>
-		  <div class="col-md-4">
-		  	<h3>Leave messages</h3>
-		  	<p>Users will be able to leave a message to another user using this application.</p>
+		  <div class="form-group">
+		    <label class="sr-only" for="exampleInputPassword3">Password</label>
+		    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
 		  </div>
-		  <div class="col-md-4">
-		  	<h3>Edit User Information</h3>
-		  	<p>Admins will be able to edit another user's information (email address, first name, last name, etc).</p>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Remember me
+		    </label>
 		  </div>
-		</div>
+		  <button type="submit" class="btn btn-default">Sign in</button>
+		</form>
+		<a href="">Don't have an account? Register</a>
 	</div>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>

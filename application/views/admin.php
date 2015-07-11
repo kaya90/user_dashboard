@@ -38,24 +38,19 @@
 		</nav>
 	</header>
 	<div class="container">
-		<div class="jumbotron">
-		  <h2>Welcome to the Test</h2>
-		  <p>We're going to build a cool application using a MVC framework! This application was built with the Village88 folks!</p>
-		  <p><a class="btn btn-primary btn-lg" href="#" role="button">Start</a></p>
-		</div>
-		<div class="row">
-		  <div class="col-md-4">
-		  	<h3>Manage Users</h3>
-		  	<p>Using this application, you'll learn how to add, remove, and edit users for the application.</p>
+		<div class="panel panel-default">
+		  <h3>Manage Users</h3>
+		  <p><a class="btn btn-primary btn-lg" href="#" role="button">Add new</a></p>
+		  <!-- Default panel contents -->
+		  <div class="panel-heading">Panel heading</div>
+		  <div class="panel-body">
+		    <p>...</p>
 		  </div>
-		  <div class="col-md-4">
-		  	<h3>Leave messages</h3>
-		  	<p>Users will be able to leave a message to another user using this application.</p>
-		  </div>
-		  <div class="col-md-4">
-		  	<h3>Edit User Information</h3>
-		  	<p>Admins will be able to edit another user's information (email address, first name, last name, etc).</p>
-		  </div>
+
+		  <!-- Table -->
+		  <table class="table">
+		    ...
+		  </table>
 		</div>
 	</div>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
